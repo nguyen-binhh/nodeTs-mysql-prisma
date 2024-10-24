@@ -1,0 +1,21 @@
+#===== Project Init =====
+pnpm init
+pnpm add express
+
+#===== Install Typescript =====
+pnpm add -D typescript (biên dịch ts sang js)
+pnpm add -D @types/node
+pnpm add -D @types/express
+pnpm add -D ts-node nodemon
+npx tsc --init (tạo ra file tsconfig.json)
+
+#===== Install Prisma ( ORM ) =====
+pnpm add prisma @prisma/client
+npx prisma init
+npx prisma generate ( when errors )
+
+#===== Install Orther =====
+pnpm add dotenv
+pnpm add bcrypt jsonwebtoken
+pnpm add -D @types/bcrypt
+pnpm add -D @types/jsonwebtoken
